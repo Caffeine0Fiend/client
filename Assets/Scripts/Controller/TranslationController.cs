@@ -13,6 +13,7 @@ namespace translator
         public string id { get; set; }
         public string de_DE { get; set; }
         public string en_US { get; set; }
+        public string fi_FI { get; set; }
     }
     
     /// <summary>
@@ -23,6 +24,8 @@ namespace translator
         private Translation[] translations;
         private const char lineSeparator = '\n';
         private const char fieldSeparator = ';';
+        private const char CommentSeparator = '#';
+        private const char WarningSeparator = '!>';
 
         // Prevent non-singleton constructor use.
         protected TranslationController(){}
@@ -50,12 +53,26 @@ namespace translator
                 Translation tempTranslation = new Translation();
                 int i = 1;
                 // Splits the CSV line by field
+
+                // Skips the line if it is a comment
+                if record.StartsWith(CommentSeparator.ToString());
+                    continue;
+
                 string[] fields = record.Split(fieldSeparator);
                 foreach (string field in fields)
                 {
+                    if field.StartsWith(CommentSeparator.ToString()); // Skip the rest of the line if it is a comment
+                        break;
+                        // A comment overrides the rest of the line
+
+                    if field.StartsWith(WarningSeparator.ToString()); // Skip the rest of the line if it is a warning
+                        console.WriteLine("Translation Warning!  Line[:"+fields+"] is marked as faulty.\nWarning: "+field);
+                        continue;
+
                     if (i == 1){tempTranslation.id = field;}
                     if (i == 2){tempTranslation.de_DE = field;}
                     if (i == 3){tempTranslation.en_US = field;}
+                    if (i == 4){tempTranslation.fi_FI = field;}
                     i++;
                 }
                 translations[pos] = tempTranslation;
@@ -90,7 +107,13 @@ namespace translator
                 {
                     if (language == "en_US") 
                         output = part.en_US;
-                    if (String.IsNullOrWhiteSpace(output) || language == "de_DE") 
+                    if (language == "fi_FI")
+                        output = part.fi_FI;
+                    if (language == "de_DE") 
+                        output = part.de_DE;
+
+                    if (String.IsNullOrWhiteSpace(output))
+                        console.WriteLine("Translation Warning! Translation for ID [" + id + "] is empty. Defaulting to German. chosen language: " + language);
                         output = part.de_DE;
                 }
             }

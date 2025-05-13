@@ -1,4 +1,9 @@
-roof;Dach;Roof;
+# Any line with "#" at the start is considered a "Comment" and is automaticly skipped!
+# Use !> to mark a warning within the code (These will be printed out during runtime!)
+
+!>The translation TXT file is running on missing translations and issues should be expected!
+
+roof;Dach;Roof;Katto; 
 trunk;Heckklappe;Trunk;
 fender;Kotflügel;Fender;
 hood_1_big;Große Motorhaube;Big Hood;
@@ -8,46 +13,50 @@ side_panel;Seitenwand;Side Panel;
 bumper;Stoßstange;Bumper;
 door;Tür;Door;
 square;Viereck;Square;
-Metal;Metall;Metal;
-Plastic;Kunststoff;Plastic;
-horizontal;horizontal;horizontal;
-vertical;vertikal;vertikal;
-NewPartPainting;Neuteillackierung;New Part Painting;
-RefinishingJob;Reparaturlackierung;Refinishing Job;
-SpotRepair;Spot-Repair;Spot Repair;
-NoSortingObject;Kein Gegenstand ausgewählt;No Object Selected
-CanRectangular;Eckiger Kanister;Angular Canister;
-CanRound;Runder Kanister;Rounded Canister;
-CoatCanWithAttachement;Runder Kanister mit Zusatz;Rounded Canister With Attachement;
-TargetContainerWithLid;Farbbehälter;Color Tank;
-Teacher;Ausbilder/in;Teacher;
-RestrictedTeacher;Eingeschränkte/r Ausbilder/in;Restricted Teacher;
-Learner;Auszubildende/r;Learner;
-Primer;Grundierfüller;Primer;
-Basecoat;Basislack;Base Coat;
-Clearcoat;Klarlack;Clear Coat;
-Topcoat;Decklack;Top Coat;
-Image;Bild;Image;
-Video;Video;Video;
+Metal;Metall;Metal;Metalli;
+Plastic;Kunststoff;Plastic;Muovi;
+horizontal;horizontal;horizontal;vaakasuora;
+vertical;vertikal;vertical;pystysuora;
+NewPartPainting;Neuteillackierung;New Part Painting;?Uuden osan maalaus;
+RefinishingJob;Reparaturlackierung;Refinishing Job;?Korjausmaalaus;
+SpotRepair;Spot-Repair;Spot Repair;?Pistekorjaus;
+NoSortingObject;Kein Gegenstand ausgewählt;No Object Selected;?Ei valittua kohdetta;
+CanRectangular;Eckiger Kanister;Angular Canister;?Kulmikas kanisteri;
+CanRound;Runder Kanister;Rounded Canister;?Pyöreä kanisteri;
+CoatCanWithAttachement;Runder Kanister mit Zusatz;Rounded Canister With Attachment;?Pyöreä kanisteri lisäosalla;
+TargetContainerWithLid;Farbbehälter;Color Tank;?Värisäiliö;
+Teacher;Ausbilder/in;Teacher;?Opettaja;
+RestrictedTeacher;Eingeschränkte/r Ausbilder/in;Restricted Teacher;???Apuopettaja;!>Fix this translation later!
+Learner;Auszubildende/r;Learner;?Oppilas;
+Primer;Grundierfüller;Primer;?Pohjamaali;
+Basecoat;Basislack;Base Coat;?Perusväri;
+Clearcoat;Klarlack;Clear Coat;?Kirkaslakka;
+Topcoat;Decklack;Top Coat;?Pintamaali;
+Image;Bild;Image;Kuva;
+Video;Video;Video;Video;
 Audio;Audiodatei;Audio;
 
-popup-button-okay;Okay;Okay;
-popup-button-yes;Ja;Yes;
-popup-button-no;Nein;No;
-popup-button-copy;Kopieren;Copy;
-popup-button-save;Speichern;Save;
-popup-button-abort;Abbrechen;Cancel;
+popup-button-okay;Okay;Okay;Selvä;
+popup-button-yes;Ja;Yes;Kyllä;
+popup-button-no;Nein;No;Ei;
+popup-button-copy;Kopieren;Copy;Kopioi;
+popup-button-save;Speichern;Save;Tallenna;
+popup-button-abort;Abbrechen;Cancel;Peruuta;
 popup-button-overwrite;Überschreiben;Overwrite;
 popup-button-server;Server;Server;
 popup-button-local;Lokal;Local;
 popup-button-everywhere;Überall;Overall;
-popup-button-remove;Entfernen;Delete;
-popup-button-convert;Umwandeln;Convert;
-popup-button-accept;Akzeptieren;Accept;
-popup-button-decline;Ablehnen;Decline;
-popup-save-task;Aufgabe speichern;
-popup-saving-task;Aufgabe wird gespeichert...;
-popup-save-task-finished;Aufgabe erfolgreich gespeichert!;
+popup-button-remove;Entfernen;Delete;Poista;
+popup-button-convert;Umwandeln;Convert;???Muuta;!>Korjaa!
+popup-button-accept;Akzeptieren;Accept;Hyväksy
+popup-button-decline;Ablehnen;Decline;Kiellä
+popup-save-task;Aufgabe speichern;Save Task;?Tallenna
+popup-saving-task;Aufgabe wird gespeichert...;Saving Task...;Tallennetaan...;
+popup-save-task-finished;Aufgabe erfolgreich gespeichert!;Task Saved!;Tallennettu!
+
+
+# Everything below is missing english/finnish translation
+
 popup-save-task-unsaved-changes;Alle ungespeicherten Änderungen gehen verloren. Möchten Sie eine neue Aufgabe erstellen?;
 popup-save-task-missing-name;Bitte geben Sie der Aufgabe einen Namen.;
 popup-save-task-missing-values;Nicht alle Pflichtfelder wurden ausgefüllt, wodurch die Aufgabe nicht durchfürbar ist. Möchten Sie die Aufgabe trotzdem speichern?;
@@ -685,7 +694,7 @@ login-screen-enter-username;Nutzernamen eingeben;Enter Username;
 login-screen-question-0;Sicherheitsfrage auswählen;Select security question;
 login-screen-question-1;In welcher Stadt bzw. an welchem Ort wurden Sie geboren?;In which city or place you were born?;
 login-screen-question-2;Wie lautet der zweite Vorname Ihrer ältesten Schwester bzw. Ihres ältesten Bruders?;What is the middle name of your oldest sister or brother?;
-login-screen-question-3;Welches war Ihr erstes Konzert, das Sie besucht haben?;What was the first concert you attended?;
+login-screen-question-3;Welches war Ihr erstes Konzert, das Sie besucht haben?;What was the first concert you attended?;Missing translation 688
 login-screen-question-4;Geben Sie Marke und Modell Ihres ersten Autos an.;Specify the brand and model of your first car.;
 login-screen-question-5;In welcher Stadt bzw. welchem Ort haben sich Ihre Eltern kennengelernt?;In which city or town did your parents meet?;
 login-screen-new-password;Neues Passwort;New Password;
@@ -693,22 +702,22 @@ login-screen-repeat-password;Passwort wiederholen;Repeat Password;
 login-screen-confirm;Bestätigen;Confirm;
 login-screen-cancel;Abbrechen;Cancel;
 
-main-menu-main-menu;Hauptmenü;Main Menu;
+main-menu-main-menu;Hauptmenü;Main Menu;Main Menu;
 main-menu-authoring-tool;Autorenwerkzeug;Authoring Tool;
 main-menu-learning-tasks;Lernaufgaben;Learning Tasks;
 main-menu-test-mode;Probiermodus;Trial Mode;
 main-menu-reflection-tool;Reflexionswerkzeug;Reflection Tool;
 main-menu-edit-profile;Profil bearbeiten;Edit Profile;
-main-menu-logout;Abmelden;Logout;
-main-menu-exit;Beenden;Exit
-main-menu-full-name;vollständiger Name:;Full name:;
-main-menu-username;Nutzername:;Username:;
-main-menu-change-name;Name ändern;Change Name;
-main-menu-current-password;aktuelles Passwort:;Current password:;
-main-menu-new-password;neues Passwort:;New password:;
-main-menu-repeat-password;Passwort wiederholen:;Repeat password:;
-main-menu-security-question;Sicherheitsfrage:;Security question:;
-main-menu-answer;Antwort:;Answer:;
-main-menu-change-password;Passwort ändern;Change Password;
-main-menu-remove-profile;Profil löschen;Remove Profile;
-main-menu-return;Zurück;Return;
+main-menu-logout;Abmelden;Logout;Kirjaudu ulos;
+main-menu-exit;Beenden;Exit;Sulje;
+main-menu-full-name;vollständiger Name:;Full name:;Koko nimi:;
+main-menu-username;Nutzername:;Username:;Käyttäjänimi:;
+main-menu-change-name;Name ändern;Change Name;Vaihda nimi;
+main-menu-current-password;aktuelles Passwort:;Current password:;Nykyinen salasana;
+main-menu-new-password;neues Passwort:;New password:;Uusi salasana:;
+main-menu-repeat-password;Passwort wiederholen:;Repeat password:;Toista Salasana:;
+main-menu-security-question;Sicherheitsfrage:;Security question:;Turva kysymys:;
+main-menu-answer;Antwort:;Answer:;Vastaus:;
+main-menu-change-password;Passwort ändern;Change Password;Vaihda salasana;
+main-menu-remove-profile;Profil löschen;Remove Profile;Poista profiili;
+main-menu-return;Zurück;Return;Palaa;

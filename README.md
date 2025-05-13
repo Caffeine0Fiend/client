@@ -1,3 +1,5 @@
+# This is a Fork of the original being translated and revamped into a simulation/learning product for learning purposes at Gradia.
+
 **For an english version see below.**
 
 Eine Beschreibung des kompletten HandLeVR-Projekts und die nötigen Schritte um die Anwendungen, die aus dem Projekt hervorgegangen sind, zu kompilieren, können auf der [Organisationsseite](https://github.com/HandLeVR) gefunden werden.

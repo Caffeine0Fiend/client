@@ -137,7 +137,7 @@ public class ConfigController : Singleton<ConfigController>
         { SERVER_OAUTH_REFRESH_TOKEN_URL, "localhost:8080/oauth/token?grant_type=refresh_token" },
         { SSL_KEYSTORE_PATH, "/StreamingAssets/SSL/handlevr.p12" },
         { SSL_KEYSTORE_PASSWORD, "passwort" },
-        { LANGUAGE, "de_DE" }
+        { LANGUAGE, "fi_FI" }
     };
 
     private Dictionary<string, string> properties;
