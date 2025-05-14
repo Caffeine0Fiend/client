@@ -47,7 +47,7 @@ popup-button-server;Server;Server;
 popup-button-local;Lokal;Local;
 popup-button-everywhere;Überall;Overall;
 popup-button-remove;Entfernen;Delete;Poista;
-popup-button-convert;Umwandeln;Convert;???Muuta;!>Korjaa!
+popup-button-convert;Umwandeln;Convert;?Muuta;!>Korjaa!
 popup-button-accept;Akzeptieren;Accept;Hyväksy
 popup-button-decline;Ablehnen;Decline;Kiellä
 popup-save-task;Aufgabe speichern;Save Task;?Tallenna
@@ -469,10 +469,10 @@ media-description;Beschreibung des Mediums;
 media-path;Pfad zur Datei;
 media-add;hinzufügen;
 media-save;speichern;
-media-list-of;Liste aller;
-media-images;Bilder;
-media-videos;Videos;
-media-audios;Audiodateien;
+media-list-of;Liste aller;List of;Lista
+media-images;Bilder;Images;Kuvat
+media-videos;Videos;Videos;Videot
+media-audios;Audiodateien;Audios;Äänitykset
 media-select;Datei auswählen;
 
 recording-location;Gibt an, ob sich die Aufnahme auf dem eigenen Rechner (lokal) und/oder auf dem Server befindet. Nur Aufnahmen auf dem Server können in Lernaufgaben verwendet werden. Lokale Aufnahmen können im Probiermodus angeschaut werden.;

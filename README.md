@@ -1,4 +1,4 @@
-# This is a Fork of the original being translated and revamped into a simulation/learning product for learning purposes at Gradia.
+# This is a Fork of the original being translated and revamped into a simulation/learning product for learning purposes at Gradia.  
 
 **For an english version see below.**
 
