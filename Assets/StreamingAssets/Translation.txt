@@ -319,7 +319,11 @@ task-spray-test-error-probability;Die Wahrscheinlichkeit für das Auftreten eine
 task-spray-test-text-monitor;Der Text, der auf dem Monitor angezeigt wird.;The text displayed on the monitor.;Näytöllä näkyvä teksti.;
 task-spray-test-speechbubble;Der Text, der in der Sprechblase des Ausbildungsmeisters angezeigt wird. Die Sprechblase verschwindet, sobald der Ausbildungsmeister angewählt wurde. Der Text darf aus maximal 50 Zeichen bestehen.;The text displayed in the speech bubble of the training master. The speech bubble disappears once the training master is selected. The text must not exceed 50 characters.;Koulutusmestarin puhekuplassa näkyvä teksti. Puhekupla katoaa, kun koulutusmestari valitaan. Tekstin pituus saa olla enintään 50 merkkiä.;
 
-# Everything below !till line 434! is missing english/finnish translation
+# Everything below !till line 442! is missing english/finnish translation
+
+
+
+#-------!!!
 
 task-spray-test-automatic-audio;Legt fest, ob der Ausbildungsmeister sofort beim Start der Teilaufgabe spricht oder erst aktiviert werden muss.;
 task-sorting-settings-skippable;Gibt an, ob der Teilschritt komplett übersprungen werden kann. Kann nur die Sprachausgabe übersprungen werden, müssen trotzdem die richtigen Objekte in den Korb gelegt werden. Jedoch muss nicht gewartet werden bis der Ausbildungsmeister fertig gesprochen hat bis fortgefahren werden kann.;
@@ -430,6 +434,10 @@ group-assign-task;Ermöglicht die Zuweisung von Aufgaben. Das Hinzufügen einer 
 group-assign-task-collection;Ermöglicht die Zuweisung von Aufgabensammlungen. Das Hinzufügen einer Aufgabensammlung wird sofort gespeichert und der Button "Gruppe speichern" muss nicht betätigt werden.;
 group-save;Speichert die Änderung des Namens der Gruppe. Änderungen bei den zugewiesenen Nutzern/innen und Aufgaben müssen nicht gespeichert werden, da dies direkt bei der Zuweisung passiert. ;
 group-name-missing;Name der Gruppe;
+
+
+#-------!!!
+
 
 coat-remove;Löscht den Lack. Dies ist nur möglich, wenn der Lack in keiner Lernaufgabe verwendet wird.;Deletes the coat. This is only possible if the coat is not used in any learning task.;Poistaa maalin. Tämä on mahdollista vain, jos maalia ei käytetä missään oppimistehtävässä.;
 coat-name;Der Name des Lackes;The name of the coat;Maalin nimi;
