@@ -103,48 +103,52 @@ popup-missing-password;Bitte das Passwort eingeben.;Please enter the password.;A
 popup-connection-error;Verbindung fehlgeschlagen;Connection failed;Yhteys epäonnistui;
 popup-connection-error-try-later;Es kann keine Verbindung zum Server hergestellt werden. Bitte versuchen sie es zu einem späteren Zeitpunkt erneut.;No connection to the server can be established. Please try again at a later time.;Yhteyttä palvelimeen ei voida muodostaa. Yritä myöhemmin uudelleen.;
 
+popup-missing-values-text;Es kann aus folgenden Gründen nicht gespeichert werden:;It cannot be saved for the following reasons:;Tallennus ei onnistu seuraavista syistä:;
+popup-save-user;Nutzer/in speichern;Save User;Tallenna käyttäjä;
+popup-updated-user;Nutzer/in aktualisiert.;User updated.;Käyttäjä päivitetty.;
+popup-saved-user-1;Neue/r Nutzer/in erstellt. Das Passwort für die Anmeldung lautet: {0};New user created. The password for login is: {0};Uusi käyttäjä luotu. Kirjautumissalasana on: {0};
+popup-saved-user-2;Dieses muss nach der ersten Anmeldung geändert werden. Zur Weitergabe wird das Passwort in folgender Datei gespeichert: {0}. Die Datei kann über den Button "Datei öffnen" geöffnet werden.;This must be changed after the first login. The password is saved in the following file for sharing: {0}. The file can be opened via the "Open File" button.;Tämä on vaihdettava ensimmäisen kirjautumisen jälkeen. Salasana tallennetaan seuraavaan tiedostoon jakamista varten: {0}. Tiedosto voidaan avata "Avaa tiedosto" -painikkeella.;
+popup-open-file;Datei öffnen;Open File;Avaa tiedosto;
+popup-creating-user;Neue/r Nutzer/in wird erstellt...;Creating new user...;Luodaan uutta käyttäjää...;
+popup-updating-user;Nutzer/in wird aktualisiert...;Updating user...;Päivitetään käyttäjää...;
+popup-unsaved-changes;Ungespeicherte Änderungen;Unsaved Changes;Tallentamattomia muutoksia;
+popup-unsaved-changes-confirm;Es gibt ungespeicherte Änderungen. Möchten Sie trotzdem fortfahren?;There are unsaved changes. Do you still want to proceed?;Tallentamattomia muutoksia on olemassa. Haluatko silti jatkaa?;
+popup-exit-application;Anwendung beenden;Exit Application;Sulje sovellus;
+popup-exit-application-confirm;Möchten Sie die Anwendung beenden?;Are you sure you want to exit the application?;Haluatko varmasti sulkea sovelluksen?;
+popup-remove-recording;Aufnahme löschen;Delete Recording;Poista tallenne;
+popup-remove-recording-where;Wo möchten sie die Aufnahme löschen?;Where do you want to delete the recording?;Mistä haluat poistaa tallenteen?;
+popup-terms-of-service;Datenschutzbestimmungen;Terms of Service;Tietosuojakäytäntö;
+popup-remove-coat;Lack löschen;Delete Coat;Poista maali;
+popup-remove-coat-confirm;Möchten Sie diesen Lack wirklich löschen?;Are you sure you want to delete this coat?;Haluatko varmasti poistaa tämän maalin?;
+popup-removing-coat;Lack wird gelöscht...;Deleting coat...;Maalin poistaminen...;
+popup-removed-coat;Lack gelöscht.;Coat deleted.;Maali poistettu.;
+popup-saving-error;Speichern nicht möglich;Saving not possible;Tallennus ei onnistu;
+popup-coat-usage-recording;Der Lack wird bereits in einer Aufnahme verwendet.;The coat is already used in a recording.;Maalia käytetään jo tallenteessa.;
+popup-coat-usage-task;Der Lack wird bereits in einer Aufgabe verwendet.;The coat is already used in a task.;Maalia käytetään jo tehtävässä.;
+popup-coat-duplicate-name;Ein Lack mit diesem Namen existiert bereits.;A coat with this name already exists.;Tällä nimellä oleva maali on jo olemassa.;
+popup-save-coat;Lack speichern;Save Coat;Tallenna maali;
+popup-saving-coat;Lack wird gespeichert...;Saving coat...;Tallennetaan maalia...;
+popup-wrong-values;Lack kann nicht gespeichert werden, da eine oder mehrere Eigenschaften fehlerhaft sind.;The coat cannot be saved because one or more properties are incorrect.;Maalia ei voida tallentaa, koska yksi tai useampi ominaisuus on virheellinen.;
+popup-saved-coat;Lack gespeichert.;Coat saved.;Maali tallennettu.;
+popup-download-recording;Aufnahme herunterladen;Download Recording;Lataa tallenne;
+popup-downloading-recording;Aufnahme wird heruntergeladen...;Downloading recording...;Ladataan tallennetta...;
+popup-downloaded-recording;Aufnahme wurde heruntergeladen.;Recording downloaded.;Tallenne ladattu.;
+popup-remove-recording;Aufnahme löschen;Delete Recording;Poista tallenne;
+popup-remove-recording-confirm-local;Möchten sie die Aufnahme auf Ihrem Rechner wirklich löschen?;Are you sure you want to delete the recording on your computer?;Haluatko varmasti poistaa tallenteen tietokoneeltasi?;
+popup-remove-recording-confirm-remote;Möchten sie die Aufnahme auf dem Server wirklich löschen?;Are you sure you want to delete the recording on the server?;Haluatko varmasti poistaa tallenteen palvelimelta?;
+popup-removing-recording;Aufnahme wird gelöscht...;Deleting recording...;Tallennetta poistetaan...;
+popup-removed-recording;Aufnahme wurde gelöscht.;Recording deleted.;Tallenne poistettu.;
+popup-recording-missing-values;Angaben unvollständig;Incomplete Information;Puuttuvia tietoja;
+popup-update-recording;Aufnahme aktualisieren;Update Recording;Päivitä tallenne;
+popup-upload-recording;Aufnahme hochladen;Upload Recording;Lataa tallenne;
+popup-recording-uploading;Aufnahme wird hochgeladen...;Uploading recording...;Tallennetta ladataan...;
+popup-file-too-big;Datei zu groß;File too large;Tiedosto on liian suuri;
+
+
+
+
 # Everything below !till line 467! is missing english/finnish translation
 
-popup-missing-values-text;Es kann aus folgenden Gründen nicht gespeichert werden:;
-popup-save-user;Nutzer/in speichern;
-popup-updated-user;Nutzer/in aktualisiert.;
-popup-saved-user-1;Neue/r Nutzer/in erstellt. Das Passwort für die Anmeldung lautet: {0};
-popup-saved-user-2;Dieses muss nach der ersten Anmeldung geändert werden. Zur Weitergabe wird das Passwort in folgender Datei gespeichert: {0}. Die Datei kann über den Button "Datei öffnen" geöffnet werden.;
-popup-open-file;Datei öffnen;
-popup-creating-user;Neue/r Nutzer/in wird erstellt...;
-popup-updating-user;Nutzer/in wird aktualisiert...;
-popup-unsaved-changes;Ungespeicherte Änderungen;
-popup-unsaved-changes-confirm;Es gibt ungespeicherte Änderungen. Möchten Sie trotzdem fortfahren?;
-popup-exit-application;Anwendung beenden;Exit Application;
-popup-exit-application-confirm;Möchten Sie die Anwendung beenden?;Are you sure you want to exit the application?
-popup-remove-recording;Aufnahme löschen;
-popup-remove-recording-where;Wo möchten sie die Aufnahme löschen?;
-popup-terms-of-service;Datenschutzbestimmungen;
-popup-remove-coat;Lack löschen;
-popup-remove-coat-confirm;Möchten Sie diesen Lack wirklich löschen?;
-popup-removing-coat;Lack wird gelöscht...;
-popup-removed-coat;Lack gelöscht.;
-popup-saving-error;Speichern nicht möglich;
-popup-coat-usage-recording;Der Lack wird bereits in einer Aufnahme verwendet.;
-popup-coat-usage-task;Der Lack wird bereits in einer Aufgabe verwendet.;
-popup-coat-duplicate-name;Ein Lack mit diesem Namen existiert bereits.;
-popup-save-coat;Lack speichern;
-popup-saving-coat;Lack wird gespeichert...;
-popup-wrong-values;Lack kann nicht gespeichert werden, da eine oder mehrere Eigenschaften fehlerhaft sind.;
-popup-saved-coat;Lack gespeichert.;
-popup-download-recording;Aufnahme herunterladen;
-popup-downloading-recording;Aufnahme wird heruntergeladen...;
-popup-downloaded-recording;Aufnahme wurde heruntergeladen.;
-popup-remove-recording;Aufnahme löschen;
-popup-remove-recording-confirm-local;Möchten sie die Aufnahme auf Ihrem Rechner wirklich löschen?;
-popup-remove-recording-confirm-remote;Möchten sie die Aufnahme auf dem Server wirklich löschen?;
-popup-removing-recording;Aufnahme wird gelöscht...;
-popup-removed-recording;Aufnahme wurde gelöscht.;
-popup-recording-missing-values;Angaben unvollständig;
-popup-update-recording;Aufnahme aktualisieren;
-popup-upload-recording;Aufnahme hochladen;
-popup-recording-uploading;Aufnahme wird hochgeladen...;
-popup-file-too-big;Datei zu groß;
 popup-file-too-big-text;Die Datei ist zu groß. Dateien dürfen eine maximale Größe von {0} MB haben.;
 popup-uploaded-recording;Aufnahme wurde erfolgreich hochgeladen.;
 popup-updated-recording;Aufnahme wurde erfolgreich aktualisiert.;
