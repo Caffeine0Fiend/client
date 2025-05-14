@@ -4,15 +4,15 @@
 !>The translation TXT file is running on missing translations and issues should be expected!
 
 roof;Dach;Roof;Katto; 
-trunk;Heckklappe;Trunk;
-fender;Kotflügel;Fender;
-hood_1_big;Große Motorhaube;Big Hood;
-hood_2;Motorhaube;Hood;
-hood_3_small;Kleine Motorhaube;Small Hood;
-side_panel;Seitenwand;Side Panel;
-bumper;Stoßstange;Bumper;
-door;Tür;Door;
-square;Viereck;Square;
+trunk;Heckklappe;Trunk;?Tavaratila;
+fender;Kotflügel;Fender;Lokasuoja;
+hood_1_big;Große Motorhaube;Big Hood;Iso konepelti;
+hood_2;Motorhaube;Hood;Konepelti;
+hood_3_small;Kleine Motorhaube;Small Hood;Pieni konepelti;
+side_panel;Seitenwand;Side Panel;Sivupaneeli;
+bumper;Stoßstange;Bumper;Puskuri;
+door;Tür;Door;Ovi;
+square;Viereck;Square;Neliö;
 Metal;Metall;Metal;Metalli;
 Plastic;Kunststoff;Plastic;Muovi;
 horizontal;horizontal;horizontal;vaakasuora;
@@ -43,9 +43,9 @@ popup-button-copy;Kopieren;Copy;Kopioi;
 popup-button-save;Speichern;Save;Tallenna;
 popup-button-abort;Abbrechen;Cancel;Peruuta;
 popup-button-overwrite;Überschreiben;Overwrite;
-popup-button-server;Server;Server;
-popup-button-local;Lokal;Local;
-popup-button-everywhere;Überall;Overall;
+popup-button-server;Server;Server;Palvelin;
+popup-button-local;Lokal;Local;Paikallinen;
+popup-button-everywhere;Überall;Overall;???Kaikkialla
 popup-button-remove;Entfernen;Delete;Poista;
 popup-button-convert;Umwandeln;Convert;?Muuta;!>Korjaa!
 popup-button-accept;Akzeptieren;Accept;Hyväksy
