@@ -261,38 +261,33 @@ sub-task-type-self-assessment-description;Ermöglicht es seinen eigenen Farbauft
 sub-task-type-reset-workpiece;Werkstück zurücksetzen;Reset Workpiece;Nollaa työkappale;
 sub-task-type-reset-workpiece-description;Ermöglicht es ein Werkstück auf Basis einer Aufnahme oder eigener Angaben zurückzusetzen. Das Werkstück wird in die Mitte der Lackierkabine platziert, bis in einem anderen Teilschritt ein anderes Werkstück erzeugt wird.;Allows resetting a workpiece based on a recording or custom specifications. The workpiece is placed in the center of the paint booth until another workpiece is created in a different sub-step.;Mahdollistaa työkappaleen nollaamisen tallenteen tai omien määrittelyjen perusteella. Työkappale sijoitetaan maalauskopin keskelle, kunnes toisessa alavaiheessa luodaan toinen työkappale.;
 
+support-info-type-ppe;Erklärung Persönliche Schutzausrüstung;Explanation Personal Protective Equipment;Henkilökohtaisen suojavarustuksen selitys;
+support-info-type-ppe-description;Erklärt durch mehrere Folien auf dem Monitor die persönliche Schutzausrüstung.;Explains personal protective equipment through multiple slides on the monitor.;Selittää henkilökohtaisen suojavarustuksen useiden diojen avulla näytöllä.;
+support-info-type-success-criteria;Erfolgskriterien;Success Criteria;Onnistumiskriteerit;
+support-info-type-success-criteria-description;Zeigt eine Übersicht über die Erfolgskriterien auf dem Monitor an. Die Zielschichtdicke hängt von der ausgewählten Farbe ab.;Displays an overview of the success criteria on the monitor. The target layer thickness depends on the selected color.;Näyttää onnistumiskriteerien yleiskatsauksen näytöllä. Tavoitekerrospaksuus riippuu valitusta väristä.;
+support-info-type-work-schedule;Arbeitsschritte;Work Steps;Työvaiheet;
+support-info-type-work-schedule-description;Zeigt einen beispielhaften Arbeitsfolgeplan auf dem Monitor an.;Displays an example work sequence plan on the monitor.;Näyttää esimerkin työvaihesuunnitelmasta näytöllä.;
+support-info-type-video;Video;Video;Video;
+support-info-type-video-description;Zeigt ein Video auf dem Monitor an.;Displays a video on the monitor.;Näyttää videon näytöllä.;
+support-info-type-visual-verification;Video zur optischen Prüfung;Video for Visual Inspection;Video visuaalista tarkastusta varten;
+support-info-type-visual-verification-description;Zeigt ein Video zur optischen Prüfung auf dem Monitor an, das durch den Ausbildungsmeister kommentiert wird.;Displays a video for visual inspection on the monitor, commented on by the training master.;Näyttää videon visuaalista tarkastusta varten näytöllä, jota koulutusmestari kommentoi.;
+support-info-type-texts;Texte;Texts;Tekstit;
+support-info-type-texts-description;Zeigt einen Text oder mehrere Texte auf dem Monitor an.;Displays one or more texts on the monitor.;Näyttää yhden tai useamman tekstin näytöllä.;
+support-info-type-images;Bilder;Images;Kuvat;
+support-info-type-images-description;Zeigt ein Bild oder mehrere Bilder auf dem Monitor an.;Displays one or more images on the monitor.;Näyttää yhden tai useamman kuvan näytöllä.;
+support-info-type-quality-criteria;Gütekriterien;Quality Criteria;Laatukriteerit;
+support-info-type-quality-criteria-description;Zeigt mehrere Kriterien auf dem Monitor an, die einen guten Farbauftrag ausmachen.;Displays several criteria on the monitor that define good paint application.;Näyttää useita kriteerejä näytöllä, jotka määrittelevät hyvän maalauksen.;
 
+task-remove-task;Löscht die Lernaufgabe. Dies ist nur möglich, wenn die Aufgabe keiner Aufgabensammlung zugewiesen wurde. Alle Zuweisungen an Nutzer/innen oder Gruppen werden entfernt.;Deletes the learning task. This is only possible if the task is not assigned to any task collection. All assignments to users or groups will be removed.;Poistaa oppimistehtävän. Tämä on mahdollista vain, jos tehtävää ei ole osoitettu mihinkään tehtäväkokoelmaan. Kaikki osoitukset käyttäjille tai ryhmille poistetaan.;
+task-name;Der Name der Lernaufgabe;The name of the learning task;Oppimistehtävän nimi;
+task-taskclass;Die Aufgabenklasse der Lernaufgabe;The task class of the learning task;Oppimistehtävän tehtäväluokka;
+task-exercise;Gibt an, ob es sich um eine normale Lernaufgabe oder eine Übung handelt. Übungen werden in der VR-Anwendung entsprechend markiert.;Indicates whether it is a normal learning task or an exercise. Exercises are marked accordingly in the VR application.;Ilmoittaa, onko kyseessä normaali oppimistehtävä vai harjoitus. Harjoitukset merkitään vastaavasti VR-sovelluksessa.;
+task-description;Die Beschreibung der Lernaufgabe;The description of the learning task;Oppimistehtävän kuvaus;
+task-included-subtasks;In der Lernaufgabe enthaltene Teilaufgaben;Subtasks included in the learning task;Oppimistehtävään sisältyvät alatehtävät;
+task-save;Speichert die Aufgabe. Existiert bereits eine Aufgabe mit diesem Namen, wird diese überschrieben. Es ist nicht möglich eine Aufgabe zu überschreiben, zu der schon Ergebnisse existieren.;Saves the task. If a task with this name already exists, it will be overwritten. It is not possible to overwrite a task that already has results.;Tallentaa tehtävän. Jos tällä nimellä on jo tehtävä, se korvataan. Tehtävää, jolla on jo tuloksia, ei voi korvata.;
+task-copy;Kopiert die Aufgabe. Dies ist nur möglich, wenn die Aufgabe bereits existiert.;Copies the task. This is only possible if the task already exists.;Kopioi tehtävän. Tämä on mahdollista vain, jos tehtävä on jo olemassa.;
 
 # Everything below !till line 438! is missing english/finnish translation
-
-
-
-
-support-info-type-ppe;Erklärung Persönliche Schutzausrüstung;
-support-info-type-ppe-description;Erklärt durch mehrere Folien auf dem Monitor die persönliche Schutzausrüstung.;
-support-info-type-success-criteria;Erfolgskriterien;
-support-info-type-success-criteria-description;Zeigt eine Übersicht über die Erfolgskriterien auf dem Monitor an. Die Zielschichtdicke hängt von der ausgewählten Farbe ab.;
-support-info-type-work-schedule;Arbeitsschritte;
-support-info-type-work-schedule-description;Zeigt einen beispielhaften Arbeitsfolgeplan auf dem Monitor an.;
-support-info-type-video;Video;
-support-info-type-video-description;Zeigt ein Video auf dem Monitor an.;
-support-info-type-visual-verification;Video zur optischen Prüfung;
-support-info-type-visual-verification-description;Zeigt ein Video zur optischen Prüfung auf dem Monitor an, das durch den Ausbildungsmeister kommentiert wird.;
-support-info-type-texts;Texte;
-support-info-type-texts-description;Zeigt einen Text oder mehrere Texte auf dem Monitor an.;
-support-info-type-images;Bilder;
-support-info-type-images-description;Zeigt ein Bild oder mehrere Bilder auf dem Monitor an.;
-support-info-type-quality-criteria;Gütekriterien;
-support-info-type-quality-criteria-description;Zeigt mehrere Kriterien auf dem Monitor an, die einen guten Farbauftrag ausmachen.;
-
-task-remove-task;Löscht die Lernaufgabe. Dies ist nur möglich, wenn die Aufgabe keiner Aufgabensammlung zugewiesen wurde. Alle Zuweisungen an Nutzer/innen oder Gruppen werden entfernt.;
-task-name;Der Name der Lernaufgabe;
-task-taskclass;Die Aufgabenklasse der Lernaufgabe;
-task-exercise;Gibt an, ob es sich um eine normale Lernaufgabe oder eine Übung handelt. Übungen werden in der VR-Anwendung entsprechend markiert.;
-task-description;Die Beschreibung der Lernaufgabe;
-task-included-subtasks;In der Lernaufgabe enthaltene Teilaufgaben;
-task-save;Speichert die Aufgabe. Existiert bereits eine Aufgabe mit diesem Namen, wird diese überschrieben. Es ist nicht möglich eine Aufgabe zu überschreiben, zu der schon Ergebnisse existieren.;
-task-copy;Kopiert die Aufgabe. Dies ist nur möglich, wenn die Aufgabe bereits existiert. ;
 
 task-basic-name;Der Name der Aufgabe.;
 task-basic-description;Eine kurze Beschreibung der Aufgabe.;
